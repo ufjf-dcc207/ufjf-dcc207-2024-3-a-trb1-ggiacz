@@ -11,45 +11,45 @@
       <form @submit.prevent="enviarContato" class="form-contato">
         <div class="form-row">
           <div class="form-group">
-            <label for="email">E-mail</label>
+            <label for="email">e-mail</label>
             <input
               id="email"
               type="email"
               v-model="form.email"
-              placeholder="Digite seu e-mail"
+              placeholder="digite seu e-mail"
               required
             />
           </div>
           <div class="form-group">
-            <label for="produto">Sobre o que deseja falar?</label>
+            <label for="produto">sobre o que deseja falar?</label>
             <select id="produto" v-model="form.produto" required>
-              <option value="" disabled>Selecione um item</option>
-              <option value="Produto 1">Produto 1</option>
-              <option value="Produto 2">Produto 2</option>
-              <option value="Produto 3">Produto 3</option>
+              <option value="" disabled>selecione um item</option>
+              <option value="produto 1">produto 1</option>
+              <option value="produto 2">produto 2</option>
+              <option value="produto 3">produto 3</option>
             </select>
           </div>
         </div>
 
-        <label for="assunto">Assunto</label>
+        <label for="assunto">assunto</label>
         <input
           id="assunto"
           type="text"
           v-model="form.assunto"
-          placeholder="Digite o assunto"
+          placeholder="digite o assunto"
           required
         />
 
-        <label for="mensagem">Mensagem</label>
+        <label for="mensagem">mensagem</label>
         <textarea
           id="mensagem"
           v-model="form.mensagem"
-          placeholder="Digite sua mensagem"
-          rows="18"
+          placeholder="digite sua mensagem"
+          rows="16"
           required
         ></textarea>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">enviar</button>
       </form>
     </div>
   </div>
@@ -103,7 +103,7 @@ const enviarContato = () => {
 .products-card {
   background-color: black;
   border: 2px solid white;
-  padding: 15px;
+  padding: 50px;
   text-align: center;
   height: 80vh;
   width: 60vw;
