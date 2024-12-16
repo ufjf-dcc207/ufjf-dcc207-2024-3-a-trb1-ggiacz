@@ -24,9 +24,10 @@
             <label for="produto">sobre o que deseja falar?</label>
             <select id="produto" v-model="form.produto" required>
               <option value="" disabled>selecione um item</option>
-              <option value="produto 1">produto 1</option>
-              <option value="produto 2">produto 2</option>
-              <option value="produto 3">produto 3</option>
+              <option value="produto 1">venturia rpg</option>
+              <option value="produto 2">castelo alto</option>
+              <option value="produto 3">caminhos de mar azul</option>
+              <option value="produto 4">alguma outra coisa</option>
             </select>
           </div>
         </div>
