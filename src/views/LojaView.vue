@@ -11,12 +11,13 @@
       <Loading v-if="loading" class="load"/>
 
       <div v-else>
-        <Produto imagem="https://via.placeholder.com/160x120" titulo="Produto 1" subtitulo="Subtítulo 1"
-          descricao="Descrição do produto 1." valor="R$ 100,00" />
-        <Produto imagem="https://via.placeholder.com/160x120" titulo="Produto 2" subtitulo="Subtítulo 2"
-          descricao="Descrição do produto 2." valor="R$ 200,00" />
-        <Produto imagem="https://via.placeholder.com/160x120" titulo="Produto 3" subtitulo="Subtítulo 3"
-          descricao="Descrição do produto 3." valor="R$ 300,00" />
+        <Produto imagem="./src/assets/produto1.jpg" titulo="Venturia RPG" subtitulo="Jogo de RPG"
+          descricao="Um sistema de RPG fantástico, situado num mundo renascentista onde a magia e tecnologia competem para ver qual será o próximo passo da civilização.
+          Ao mesmo tempo, defesas são levantadas de todos os lados contra forças há muito tempo esquecidas que acabaram de despertar." valor="grátis"/>
+        <Produto imagem="./src/assets/produto2.jpg" titulo="Caminhos de Mar Azul" subtitulo="Livro"
+          descricao="Contos publicados mensalmente sobre um andarilho e suas aventuras." valor="R$ 15,90/mês" />
+        <Produto imagem="./src/assets/produto3.jpg" titulo="Castelo Alto" subtitulo="Jogo de Tabuleiro"
+          descricao="Uma combinação impecável de Starcraft, Clash Royale e Civilization. Compilado e trazido para tabuleiro" valor="R$ 189,90" />
       </div>
     </div>
   </div>
@@ -27,6 +28,7 @@ import Navbar from '../components/Navbar.vue';
 import Logo from '@/components/Logo.vue';
 import Produto from '@/components/Produto.vue';
 import Loading from '@/components/Loading.vue';
+
 import { useRouter } from 'vue-router';
 import { ref } from 'vue';
 
