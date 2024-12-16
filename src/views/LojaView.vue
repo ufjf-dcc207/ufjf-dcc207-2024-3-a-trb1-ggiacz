@@ -8,16 +8,23 @@
     <div class="products-card">
       <h1>nossos produtos</h1>
 
-      <Loading v-if="loading" class="load"/>
+      <Loading v-if="loading" class="load" />
 
       <div v-else>
         <Produto imagem="./src/assets/produto1.jpg" titulo="Venturia RPG" subtitulo="Jogo de RPG"
           descricao="Um sistema de RPG fantástico, situado num mundo renascentista onde a magia e tecnologia competem para ver qual será o próximo passo da civilização.
-          Ao mesmo tempo, defesas são levantadas de todos os lados contra forças há muito tempo esquecidas que acabaram de despertar." valor="grátis"/>
+          Ao mesmo tempo, defesas são levantadas de todos os lados contra forças há muito tempo esquecidas que acabaram de despertar." valor="grátis" />
         <Produto imagem="./src/assets/produto2.jpg" titulo="Caminhos de Mar Azul" subtitulo="Livro"
           descricao="Contos publicados mensalmente sobre um andarilho e suas aventuras." valor="R$ 15,90/mês" />
         <Produto imagem="./src/assets/produto3.jpg" titulo="Castelo Alto" subtitulo="Jogo de Tabuleiro"
-          descricao="Uma combinação impecável de Starcraft, Clash Royale e Civilization. Compilado e trazido para tabuleiro" valor="R$ 189,90" />
+          descricao="Uma combinação impecável de Starcraft, Clash Royale e Civilization. Compilado e trazido para tabuleiro"
+          valor="R$ 189,90" />
+        <Produto imagem="https://via.placeholder.com/120x168" titulo="Imagine um produto aqui" subtitulo="Tipo do Produto"
+          descricao="Imagine uma descrição incrível"
+          valor="R$ 4,99" />
+        <Produto imagem="https://via.placeholder.com/120x168" titulo="continuar esse formato de projeto para os próximos trabalhos" subtitulo="pois pretendo continuar desenvolvendo esse site"
+          descricao="😎"
+          valor="R$ 20000,99" />
       </div>
     </div>
   </div>
