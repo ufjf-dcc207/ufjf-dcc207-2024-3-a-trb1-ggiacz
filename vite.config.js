@@ -7,7 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/ufjf-dcc207-2024-3-a-trb1-ggiacz/"
+  base: "/ufjf-dcc207-2024-3-a-trb1-ggiacz/",
   plugins: [
     vue(),
     vueJsx(),
