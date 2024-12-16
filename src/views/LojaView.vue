@@ -22,7 +22,7 @@
         <Produto imagem="https://via.placeholder.com/120x168" titulo="Imagine um produto aqui" subtitulo="Tipo do Produto"
           descricao="Imagine uma descrição incrível"
           valor="R$ 4,99" />
-        <Produto imagem="https://via.placeholder.com/120x168" titulo="continuar esse formato de projeto para os próximos trabalhos" subtitulo="pois pretendo continuar desenvolvendo esse site"
+        <Produto imagem="https://via.placeholder.com/120x168" titulo="continuar esse formato de projeto para os próximos trabalhos por favor" subtitulo="pois pretendo continuar desenvolvendo esse site"
           descricao="😎"
           valor="R$ 20000,99" />
       </div>
